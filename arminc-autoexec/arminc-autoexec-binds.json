@@ -21,11 +21,14 @@
     },
     "\n\n\n\n&nbsp;F1\n<small><i>58&nbsp;",
     "\n\n\n\n&nbsp;F2\n<small><i>59&nbsp;",
-    "\n\n\n\n&nbsp;F3\n<small><i>60&nbsp;",
     {
-      "c": "#EC407A",
+      "c": "#FDD835",
       "t": "#212121",
       "a": 1
+    },
+    "Auto\nToggle\n\n\n&nbsp;F3\n<small><i>60&nbsp;\nbuy",
+    {
+      "c": "#EC407A"
     },
     "AFK\n\n\n\n&nbsp;F4\n<small><i>61&nbsp;\nmove",
     {
@@ -153,7 +156,7 @@
     "Revert\n\n\n\n<small>PgUp\n<small><small><i>75&nbsp;\nsound",
     {
       "x": 0.25,
-      "c": "#ffffff",
+      "c": "#B71C1C",
       "t": "#ffffff",
       "a": 3
     },
@@ -188,13 +191,13 @@
         2,
         0,
         0,
-        0,
-        0,
-        0
+        2,
+        2,
+        2
       ],
       "n": true
     },
-    "Jump\n{HE}\n\n\n&nbsp;Q\n<small><i>20&nbsp;\nThrow",
+    "Quick\n{HE}\n\n\n&nbsp;Q\n<small><i>20&nbsp;\nswitch",
     {
       "c": "#03A9F4",
       "a": 3,
@@ -223,13 +226,11 @@
     },
     "Reload\n\n\n\n&nbsp;R\n<small><i>21&nbsp;",
     {
-      "c": "#FDD835",
       "a": 1,
       "f": 2
     },
-    "Voice\n\n\n\n&nbsp;T\n<small><i>23&nbsp;\n(Comm.)",
+    "Spray\n\n\n\n&nbsp;T\n<small><i>23&nbsp;\nMenu",
     {
-      "c": "#03A9F4",
       "f": 3
     },
     "Global\n\n\n\n&nbsp;Y\n<small><i>28&nbsp;\nmsg.",
@@ -358,7 +359,7 @@
       "c": "#EC407A",
       "f": 3
     },
-    "Run\nThrow\n\n\n&nbsp;J\n<small><i>13&nbsp;\nJump",
+    "Bomb\n\n\n\n&nbsp;J\n<small><i>13&nbsp;\nDrop",
     {
       "c": "#FDD835",
       "f": 3
@@ -366,21 +367,32 @@
     "Vote\n\n\n\n&nbsp;K\n<small><i>14&nbsp;\nmenu",
     {
       "c": "#EC407A",
-      "f": 3
+      "fa": [
+        1,
+        2,
+        0,
+        0,
+        0,
+        0,
+        1
+      ]
     },
-    "Drop\n\n\n\n&nbsp;L\n<small><i>15&nbsp;\nbomb",
+    "Observed\n\n\n\n&nbsp;L\n<small><i>15&nbsp;\nCrosshair",
     {
-      "c": "#03A9F4",
+      "c": "#FDD835",
+      "a": 3,
       "f": 3
     },
-    "Spray\n\n\n\n;&nbsp;&nbsp;:\n<small><i>51&nbsp;\nmenu",
+    "Noclip\n\n\n\n;&nbsp;&nbsp;:\n<small><i>51&nbsp;",
+    {
+      "a": 1,
+      "f": 3
+    },
+    "Player\n\n\n\n'&nbsp;&nbsp;\"\n<small><i>52&nbsp;\nPing",
     {
       "c": "#ffffff",
       "t": "#ffffff",
-      "a": 3
-    },
-    "\n\n\n\n'&nbsp;&nbsp;\"\n<small><i>52&nbsp;",
-    {
+      "a": 3,
       "w": 2.25
     },
     "\n\n\n\n\n<small><i>40&nbsp;\n\n\n\n\n\n↵ Enter",
@@ -438,12 +450,12 @@
     {
       "n": true
     },
-    "Quick\n{Guns}\n\n\n&nbsp;V\n<small><i>25&nbsp;\nswitch",
+    "Voice\n{Guns}\n\n\n&nbsp;V\n<small><i>25&nbsp;\nTalk",
     {
       "c": "#03A9F4",
       "f": 3
     },
-    "Buy\n\n\n\n&nbsp;B\n<small><i>5&nbsp;\nmenu",
+    "Buy\n\n\n\n&nbsp;B\n<small><i>5&nbsp;\nMenu",
     {
       "c": "#EC407A",
       "fa": [
@@ -477,12 +489,13 @@
     "Exec:\n\n\n\n,&nbsp;&nbsp;<\n<small><i>54&nbsp;\nautoexec",
     "Exec:\n\n\n\n.&nbsp;&nbsp;>\n<small><i>55&nbsp;\nconfig",
     {
+      "f": 3
+    },
+    "Switch\n\n\n\n/&nbsp;&nbsp;?\n<small><i>56&nbsp;\nHands",
+    {
       "c": "#ffffff",
       "t": "#ffffff",
-      "a": 3
-    },
-    "\n\n\n\n/&nbsp;&nbsp;?\n<small><i>56&nbsp;",
-    {
+      "a": 3,
       "w": 2.75
     },
     "\n\n\n\n\n<small><i>229&nbsp;\n\n\n\n\n\n⇧ Shift",
