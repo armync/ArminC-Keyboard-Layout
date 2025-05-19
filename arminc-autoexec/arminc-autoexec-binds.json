@@ -483,18 +483,29 @@
         0,
         0,
         0,
-        1
+        0
       ]
     },
-    "Exec:\n\n\n\n,&nbsp;&nbsp;<\n<small><i>54&nbsp;\nautoexec",
-    "Exec:\n\n\n\n.&nbsp;&nbsp;>\n<small><i>55&nbsp;\nconfig",
+    "Switch\n\n\n\n,&nbsp;&nbsp;<\n<small><i>54&nbsp;\nHands",
     {
+      "fa": [
+        0,
+        2,
+        0,
+        0,
+        0,
+        0,
+        2
+      ]
+    },
+    "Exec\n\n\n\n.&nbsp;&nbsp;>\n<small><i>55&nbsp;\nusercfg",
+    {
+      "c": "#ffffff",
+      "t": "#ffffff",
       "f": 3
     },
     "Switch\n\n\n\n/&nbsp;&nbsp;?\n<small><i>56&nbsp;\nHands",
     {
-      "c": "#ffffff",
-      "t": "#ffffff",
       "a": 3,
       "w": 2.75
     },
@@ -650,7 +661,7 @@
       "h": 1.25,
       "d": true
     },
-    "<i class='fa fa-external-link'></i> github.com/ArmynC/ArminC-AutoExec"
+    "<i class='fa fa-external-link'></i> github.com/armync/ArminC-AutoExec"
   ],
   [
     {
